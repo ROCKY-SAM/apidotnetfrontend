@@ -38,3 +38,56 @@ Accordingly, ng add ngx-bootstrap provides:
 
 
 npm install font-awesome
+
+ng g c nav --skip-tests
+
+ng g s account --skip-tests
+
+
+So we've reached the end of Section five, which was all about clients, log in and register and let's
+
+just review the learning goals that we should hopefully have achieved by the end of this particular
+
+section.
+
+So we've implemented the log in and register functionality, as well as hopefully understanding about
+
+creating components using the angular CLI.
+
+We now have several components in our application.
+
+We've also taken a look at forms and how we can use to way binding to get data from our templates into
+
+our component and also the other way as well.
+
+We've taken a look at angular services and a couple of points that I'd like you to remember is the fact
+
+that Angella services are singletons.
+
+This makes them a good place to share data between components and we will be doing that later on.
+
+And we've also taken a look at observables and we've looked at a few different ways of how we can subscribe
+
+to observables.
+
+And we also took a look at the async pipe, which automatically subscribes and unsubscribes from observables
+
+without us needing to manually use the subscribe method.
+
+We've also seen the pipe and how we can transform data that we get back inside unobservable.
+
+We've also taken a look at angular structural directives to conditionally display information on a page.
+
+And we've looked at communication between parent and child as well.
+
+In terms of those input and output properties.
+
+Don't worry about not fully understanding about anything that we've covered in this particular section.
+
+What we do in this course is we use everything that we're talking about now.
+
+These are the building blocks of any Anjelah application.
+
+And as we build more of our application, your understanding will grow of what we're doing here.
+
+And what we're going to take a look at next is rooting in our application.
